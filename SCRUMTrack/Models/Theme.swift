@@ -40,3 +40,9 @@ enum Theme: String {
         rawValue.replacingOccurrences(of: "Light", with: "").capitalized
     }
 }
+
+extension Theme: Identifiable ,CaseIterable {
+    var id: String {
+        name
+    }
+}
