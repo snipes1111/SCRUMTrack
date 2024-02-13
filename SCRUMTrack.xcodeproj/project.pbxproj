@@ -17,6 +17,7 @@
 		CE7EC4D82B768ADA00E5E26F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7EC4D72B768ADA00E5E26F /* Preview Assets.xcassets */; };
 		CE7EC4E02B791EAB00E5E26F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EC4DF2B791EAB00E5E26F /* Theme.swift */; };
 		CECC50192B7A6845009DEFF4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC50182B7A6845009DEFF4 /* DetailView.swift */; };
+		CECC501B2B7BA0EC009DEFF4 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC501A2B7BA0EC009DEFF4 /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		CE7EC4D72B768ADA00E5E26F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE7EC4DF2B791EAB00E5E26F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		CECC50182B7A6845009DEFF4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CECC501A2B7BA0EC009DEFF4 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				CE33812C2B7922B100491CB8 /* CardView.swift */,
 				CE3381322B79372300491CB8 /* ScrumsView.swift */,
 				CECC50182B7A6845009DEFF4 /* DetailView.swift */,
+				CECC501A2B7BA0EC009DEFF4 /* DetailEditView.swift */,
 				CE33812E2B79308D00491CB8 /* TrailingIconLabelStyle.swift */,
 				CE7EC4D42B768ADA00E5E26F /* Assets.xcassets */,
 				CE7EC4D62B768ADA00E5E26F /* Preview Content */,
@@ -165,6 +168,7 @@
 			files = (
 				CE3381292B79214700491CB8 /* DailyScrum.swift in Sources */,
 				CECC50192B7A6845009DEFF4 /* DetailView.swift in Sources */,
+				CECC501B2B7BA0EC009DEFF4 /* DetailEditView.swift in Sources */,
 				CE33812F2B79308D00491CB8 /* TrailingIconLabelStyle.swift in Sources */,
 				CE7EC4E02B791EAB00E5E26F /* Theme.swift in Sources */,
 				CE3381332B79372300491CB8 /* ScrumsView.swift in Sources */,
