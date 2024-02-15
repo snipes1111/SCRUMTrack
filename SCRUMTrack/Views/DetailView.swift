@@ -9,8 +9,6 @@ import SwiftUI
 
 struct DetailView: View {
     
-    
-    
     @State private var editingScrum: DailyScrum = DailyScrum.emptyScrum
     @State private var isPresentingEditView: Bool = false
     @Binding var scrum: DailyScrum
