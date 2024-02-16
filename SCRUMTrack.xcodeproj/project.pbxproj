@@ -27,6 +27,7 @@
 		CECC501D2B7BEB6B009DEFF4 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC501C2B7BEB6B009DEFF4 /* ThemeView.swift */; };
 		CECC501F2B7BF1D3009DEFF4 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC501E2B7BF1D3009DEFF4 /* ThemePicker.swift */; };
 		CECC50212B7D232B009DEFF4 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC50202B7D232B009DEFF4 /* MeetingHeaderView.swift */; };
+		CEE93EB12B7F8AD3005ECED0 /* EditScrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE93EB02B7F8AD3005ECED0 /* EditScrumView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		CECC501C2B7BEB6B009DEFF4 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		CECC501E2B7BF1D3009DEFF4 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		CECC50202B7D232B009DEFF4 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		CEE93EB02B7F8AD3005ECED0 /* EditScrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScrumView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +80,10 @@
 				CE3381322B79372300491CB8 /* ScrumsView.swift */,
 				CE0D6FF12B7E70B000650355 /* NewScrumSheet.swift */,
 				CE7EC4D22B768AD100E5E26F /* MeetingView.swift */,
-				CEE93EAF2B7F88C8005ECED0 /* Subviews */,
 				CECC50182B7A6845009DEFF4 /* DetailView.swift */,
+				CEE93EB02B7F8AD3005ECED0 /* EditScrumView.swift */,
 				CECC501A2B7BA0EC009DEFF4 /* DetailEditView.swift */,
+				CEE93EAF2B7F88C8005ECED0 /* Subviews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				CE3381332B79372300491CB8 /* ScrumsView.swift in Sources */,
 				CE7EC4D32B768AD100E5E26F /* MeetingView.swift in Sources */,
 				CE7EC4D12B768AD100E5E26F /* SCRUMTrackApp.swift in Sources */,
+				CEE93EB12B7F8AD3005ECED0 /* EditScrumView.swift in Sources */,
 				CECC501D2B7BEB6B009DEFF4 /* ThemeView.swift in Sources */,
 				CE33812D2B7922B100491CB8 /* CardView.swift in Sources */,
 			);
