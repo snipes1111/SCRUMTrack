@@ -78,15 +78,9 @@
 				CE3381322B79372300491CB8 /* ScrumsView.swift */,
 				CE0D6FF12B7E70B000650355 /* NewScrumSheet.swift */,
 				CE7EC4D22B768AD100E5E26F /* MeetingView.swift */,
-				CECC50202B7D232B009DEFF4 /* MeetingHeaderView.swift */,
-				CE0D6FED2B7E590500650355 /* MeetingFooterView.swift */,
-				CE0D6FE62B7D346100650355 /* ScrumProgressViewStyle.swift */,
-				CE33812C2B7922B100491CB8 /* CardView.swift */,
+				CEE93EAF2B7F88C8005ECED0 /* Subviews */,
 				CECC50182B7A6845009DEFF4 /* DetailView.swift */,
 				CECC501A2B7BA0EC009DEFF4 /* DetailEditView.swift */,
-				CECC501C2B7BEB6B009DEFF4 /* ThemeView.swift */,
-				CECC501E2B7BF1D3009DEFF4 /* ThemePicker.swift */,
-				CE33812E2B79308D00491CB8 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -137,6 +131,20 @@
 				CE0D6FEF2B7E673600650355 /* DingAVPlayer.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		CEE93EAF2B7F88C8005ECED0 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				CECC50202B7D232B009DEFF4 /* MeetingHeaderView.swift */,
+				CE0D6FED2B7E590500650355 /* MeetingFooterView.swift */,
+				CE0D6FE62B7D346100650355 /* ScrumProgressViewStyle.swift */,
+				CE33812C2B7922B100491CB8 /* CardView.swift */,
+				CECC501C2B7BEB6B009DEFF4 /* ThemeView.swift */,
+				CECC501E2B7BF1D3009DEFF4 /* ThemePicker.swift */,
+				CE33812E2B79308D00491CB8 /* TrailingIconLabelStyle.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
