@@ -29,6 +29,7 @@
 		CECC50212B7D232B009DEFF4 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC50202B7D232B009DEFF4 /* MeetingHeaderView.swift */; };
 		CEE93EB12B7F8AD3005ECED0 /* EditScrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE93EB02B7F8AD3005ECED0 /* EditScrumView.swift */; };
 		CEE93EB32B7F9137005ECED0 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE93EB22B7F9137005ECED0 /* History.swift */; };
+		CEE93EB52B7FC9C7005ECED0 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE93EB42B7FC9C7005ECED0 /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		CECC50202B7D232B009DEFF4 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		CEE93EB02B7F8AD3005ECED0 /* EditScrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScrumView.swift; sourceTree = "<group>"; };
 		CEE93EB22B7F9137005ECED0 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		CEE93EB42B7FC9C7005ECED0 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				CE0D6FE92B7E439000650355 /* ScrumTimer.swift */,
 				CE0D6FEF2B7E673600650355 /* DingAVPlayer.swift */,
 				CEE93EB22B7F9137005ECED0 /* History.swift */,
+				CEE93EB42B7FC9C7005ECED0 /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			files = (
 				CECC501F2B7BF1D3009DEFF4 /* ThemePicker.swift in Sources */,
 				CE0D6FE72B7D346100650355 /* ScrumProgressViewStyle.swift in Sources */,
+				CEE93EB52B7FC9C7005ECED0 /* ScrumStore.swift in Sources */,
 				CEE93EB32B7F9137005ECED0 /* History.swift in Sources */,
 				CE0D6FEE2B7E590500650355 /* MeetingFooterView.swift in Sources */,
 				CE0D6FF02B7E673600650355 /* DingAVPlayer.swift in Sources */,
