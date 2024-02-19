@@ -30,6 +30,8 @@
 		CEE93EB12B7F8AD3005ECED0 /* EditScrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE93EB02B7F8AD3005ECED0 /* EditScrumView.swift */; };
 		CEE93EB32B7F9137005ECED0 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE93EB22B7F9137005ECED0 /* History.swift */; };
 		CEE93EB52B7FC9C7005ECED0 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE93EB42B7FC9C7005ECED0 /* ScrumStore.swift */; };
+		CEE93EBE2B83B668005ECED0 /* TestKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE93EBD2B83B668005ECED0 /* TestKeys.plist */; };
+		CEE93EC02B83B6B9005ECED0 /* TestApiKeysManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE93EBF2B83B6B9005ECED0 /* TestApiKeysManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,9 @@
 		CEE93EB02B7F8AD3005ECED0 /* EditScrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScrumView.swift; sourceTree = "<group>"; };
 		CEE93EB22B7F9137005ECED0 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		CEE93EB42B7FC9C7005ECED0 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		CEE93EBD2B83B668005ECED0 /* TestKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TestKeys.plist; sourceTree = "<group>"; };
+		CEE93EBF2B83B6B9005ECED0 /* TestApiKeysManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApiKeysManager.swift; sourceTree = "<group>"; };
+		CEE93EC12B83C38A005ECED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +116,11 @@
 		CE7EC4CF2B768AD100E5E26F /* SCRUMTrack */ = {
 			isa = PBXGroup;
 			children = (
+				CEE93EC12B83C38A005ECED0 /* Info.plist */,
 				CE7EC4DE2B791E8F00E5E26F /* Models */,
 				CE0D6FE82B7D385500650355 /* Views */,
 				CE7EC4D02B768AD100E5E26F /* SCRUMTrackApp.swift */,
+				CEE93EBD2B83B668005ECED0 /* TestKeys.plist */,
 				CE0D6FE32B7D33FC00650355 /* Resources */,
 				CE7EC4D42B768ADA00E5E26F /* Assets.xcassets */,
 				CE7EC4D62B768ADA00E5E26F /* Preview Content */,
@@ -133,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				CE7EC4DF2B791EAB00E5E26F /* Theme.swift */,
+				CEE93EBF2B83B6B9005ECED0 /* TestApiKeysManager.swift */,
 				CE3381282B79214700491CB8 /* DailyScrum.swift */,
 				CE0D6FE92B7E439000650355 /* ScrumTimer.swift */,
 				CE0D6FEF2B7E673600650355 /* DingAVPlayer.swift */,
@@ -214,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE93EBE2B83B668005ECED0 /* TestKeys.plist in Resources */,
 				CE0D6FE52B7D342300650355 /* ding.wav in Resources */,
 				CE7EC4D82B768ADA00E5E26F /* Preview Assets.xcassets in Resources */,
 				CE7EC4D52B768ADA00E5E26F /* Assets.xcassets in Resources */,
@@ -227,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE93EC02B83B6B9005ECED0 /* TestApiKeysManager.swift in Sources */,
 				CECC501F2B7BF1D3009DEFF4 /* ThemePicker.swift in Sources */,
 				CE0D6FE72B7D346100650355 /* ScrumProgressViewStyle.swift in Sources */,
 				CEE93EB52B7FC9C7005ECED0 /* ScrumStore.swift in Sources */,
@@ -253,7 +263,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CE7EC4D92B768ADA00E5E26F /* Debug */ = {
+		CE7EC4D92B768ADA00E5E26F /* Staging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -314,7 +324,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = Staging;
 		};
 		CE7EC4DA2B768ADA00E5E26F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -362,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -372,9 +382,10 @@
 			};
 			name = Release;
 		};
-		CE7EC4DC2B768ADA00E5E26F /* Debug */ = {
+		CE7EC4DC2B768ADA00E5E26F /* Staging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				API_KEY = StagingKey;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -383,6 +394,7 @@
 				DEVELOPMENT_TEAM = TWWBX6RB4S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SCRUMTrack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -399,11 +411,12 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Staging;
 		};
 		CE7EC4DD2B768ADA00E5E26F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				API_KEY = ReleaseKey;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -412,6 +425,7 @@
 				DEVELOPMENT_TEAM = TWWBX6RB4S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SCRUMTrack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,13 +444,108 @@
 			};
 			name = Release;
 		};
+		CEE93EBB2B83B55F005ECED0 /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Production;
+		};
+		CEE93EBC2B83B55F005ECED0 /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				API_KEY = ProdKey;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SCRUMTrack/Preview Content\"";
+				DEVELOPMENT_TEAM = TWWBX6RB4S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SCRUMTrack/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.markKovalchuk.SCRUMTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Production;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		CE7EC4C82B768AD100E5E26F /* Build configuration list for PBXProject "SCRUMTrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE7EC4D92B768ADA00E5E26F /* Debug */,
+				CE7EC4D92B768ADA00E5E26F /* Staging */,
+				CEE93EBB2B83B55F005ECED0 /* Production */,
 				CE7EC4DA2B768ADA00E5E26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -445,7 +554,8 @@
 		CE7EC4DB2B768ADA00E5E26F /* Build configuration list for PBXNativeTarget "SCRUMTrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE7EC4DC2B768ADA00E5E26F /* Debug */,
+				CE7EC4DC2B768ADA00E5E26F /* Staging */,
+				CEE93EBC2B83B55F005ECED0 /* Production */,
 				CE7EC4DD2B768ADA00E5E26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
